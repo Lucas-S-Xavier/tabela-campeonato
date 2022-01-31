@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/foto2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightgray;
+    margin: 0 1px 0 1px;
+}
+
+table td, th {
+    border: solid 1px black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.986);
+}
+
+col.time {
+    background-color: lightgray;
+}
+
+col.pontos {
+    background-color: white;
+}
+
+col.saldo {
+    background-color: lightgray;
+}
+
+col.gols {
+    background-color: white;
+}
+
+col.sofridos {
+    background-color: lightgray;
+}
+
+col.vitorias {
+    background-color: white;
+}
+
+main {
+    margin: auto;
+    padding-top: 50px;
+    overflow-x: auto;
+}
+
+caption {
+    text-transform: uppercase;
+    text-align: left;
+    background-color: lightgray;
+    margin: 0 1px 0 1px;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 5px 0 5px 85px;
+    position: relative;
+}
+
+img {
+    width: 40px;
+    position: absolute;
+    margin-left: 10px;
+    top: 6px;
+}
+
+table.artilheiros {
+    width: 620px;
+}
+
+col.nomeA {
+    background-color: lightgray;
+}
+
+col.timeA {
+    background-color: white;
+}
+
+col.golsA {
+    background-color: lightgray;
+}
+
+caption.artilheiros {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+.imgA {
+    width: 35px;
+    position: absolute;
+    top: 3px;
+}
+
+.mainA {
+    padding-top: 100px;
+}
