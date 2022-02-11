@@ -23,13 +23,15 @@ h1 {
     text-align: center;
     background-color: lightgray;
     margin: 20px auto -50px auto;
-    width: 567px;
+    width: 440px;
+    font-size: 1.4em;
+    padding: 5px 0;
 }
 
 table td, th {
     border: solid 1px black;
     text-align: center;
-    padding: 20px;
+    padding: 13px;
     font-size: 16px;
 }
 
@@ -45,7 +47,7 @@ table {
 
 
 table.artilheiros {
-    width: 571px;
+    width: 440px;
 }
 
 col.time {
@@ -155,12 +157,12 @@ footer {
 
 footer p {
     padding-top: 10px;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 100vw;
 }
 
 a {
-    
+
     color: rgb(97, 97, 97);
     text-decoration: none;
     font-weight: bold;
