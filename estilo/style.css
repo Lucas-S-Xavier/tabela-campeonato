@@ -3,172 +3,148 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../imagens/foto2.webp');
+    background-image: url('/imagens/futsal-1024x682.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     background-position: center;
     background-attachment: fixed;
-    padding: 0;
-    margin: 0;
+
 }
 
-
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    background-color: lightgray;
-    margin: 20px auto -50px auto;
-    width: 440px;
-    font-size: 1.4em;
-    padding: 5px 0;
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 320px;
+    margin-top: 20px;
 }
 
 table td, th {
     border: solid 1px black;
+    padding: 10px 6px;
     text-align: center;
-    padding: 13px;
-    font-size: 16px;
 }
 
-table {
-    border-collapse: collapse;
-    overflow-x: auto;
+.tabela-jogos th {
+    text-transform: uppercase;
 }
 
-.tabela-times {
-    overflow-x: auto;
-}
-
-
-
-table.artilheiros {
-    width: 440px;
-}
-
-col.time {
-    background-color: lightgray;
-}
-
-col.pontos {
-    background-color: white;
-}
-
-col.saldo {
-    background-color: lightgray;
-}
-
-col.gols {
-    background-color: white;
-}
-
-col.sofridos {
-    background-color: lightgray;
-}
-
-col.jogos {
-    background-color: white;
-}
-
-col.vitorias {
-    background-color: lightgray;
-}
-
-col.derrotas {
-    background-color: white;
-}
-
-col.empates {
-    background-color: lightgray;
-}
-
-main {
-    padding-top: 50px;
-    margin: auto;
-    width: fit-content;
-    overflow-x: auto;
-}
-
-.mainT {
-    margin-top: 0;
+.div-tabela {
     overflow-x: auto;
 }
 
 caption {
-    text-transform: uppercase;
-    text-align: left;
     background-color: lightgray;
-    margin: 0 1px 0 1px;
+    padding: 5px 0px;
     font-weight: bold;
-    font-size: 1.4em;
-    padding: 5px 0 5px 220px;
+    text-transform: uppercase;
+}
+
+.imagem-bandeira {
+    width: 23px;
     position: relative;
+    top: 2px;
+    margin-left: 5px;
 }
 
-img {
-    width: 32px;
-    position: absolute;
-    margin-left: 10px;
-    top: 27px;
+.imagem-bola {
+    width: 18px;
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
 }
 
-col.nomeA {
+
+.coluna-time {
     background-color: lightgray;
 }
 
-col.timeA {
+.coluna-pontos {
     background-color: white;
 }
 
-col.golsA {
+.coluna-saldo-de-gols {
     background-color: lightgray;
 }
 
-caption.artilheiros {
-    text-align: center;
-    padding: 5px;
-    position: relative;
+.coluna-gols {
+    background-color: white;
 }
 
-.imgA {
-    width: 25px;
-    position: absolute;
-    top: 5px;
+.coluna-gols-sofridos {
+    background-color: lightgray;
 }
 
-.mainA {
-    padding-top: 100px;
+.coluna-jogos {
+    background-color: white;
 }
 
-.men {
-    display: none;
+.coluna-vitorias {
+    background-color: lightgray;
+}
+
+.coluna-derrotas {
+    background-color: white;
+}
+
+.coluna-empates {
+    background-color: lightgray;
+}
+
+/* cor das colunas dos artilheiros abaixo: */
+
+.coluna-nomeA {
+    background-color: lightgray;
+}
+
+.coluna-timeA {
+    background-color: white;
+}
+
+.coluna-golsA {
+    background-color: lightgray;
+}
+
+/* cor das colunas site jogos abaixo: */
+
+.coluna-time-lado-esquerdo {
+    background-color: lightgray;
+}
+
+.coluna-resultado {
+    background-color: white;
+}
+
+.coluna-time-lado-direito {
+    background-color: lightgray;
+}
+
+.coluna-time-jogos {
+    background-color: lightgray;
+}
+
+.coluna-numero-de-jogos {
+    background-color: white;
 }
 
 footer {
-    background-color: lightgray;
-    padding-bottom: 10px;
     text-align: center;
-    margin-top: 50px;
-    width: 138vw;
+    background-color: lightgray;
+    margin-top: 40px;
+    padding: 10px;
 }
 
-footer p {
-    padding-top: 10px;
-    font-size: 1.5em;
-}
-
-a {
-
-    color: rgb(97, 97, 97);
-    text-decoration: none;
+footer a {
+    color: rgb(56, 56, 56);
     font-weight: bold;
+    text-decoration: none;
 }
 
-a:hover {
-    color: blue;
+footer a:hover {
     text-decoration: underline;
+    color: blue;
 }
