@@ -8,12 +8,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('/imagens/futsal-1024x682.jpg');
+    background-image: url('../imagens/futsal-1024x682.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
+    /* Mudei */
 }
 
 table {
